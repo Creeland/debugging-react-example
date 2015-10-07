@@ -1,0 +1,30 @@
+{
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": 0,
+    "linebreak-style": [1, "unix"],
+    "semi": [1, "always"],
+    "indent": [1, 2, {"SwitchCase": 1}],
+    "quotes": [1, "single"],
+    "jsx-quotes": [1, "prefer-single"],
+    "react/no-unknown-property": 2,
+    "react/jsx-no-duplicate-props": 2,
+    "react/jsx-no-undef": 2,
+    "react/no-multi-comp": 2,
+    "react/prop-types": 2
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "jsx": true,
+    "experimentalObjectRestSpread": true
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "mocha": true
+  },
+  "plugins": [
+    "react"
+  ]
+}
